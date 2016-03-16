@@ -12,4 +12,16 @@ class TestCase extends PHPUnit_Framework_TestCase
         		parent::tearDown();
         		Mockery::close();
     	}
+
+    	public function nonStringValues( )
+    	{
+	        return array(
+	            	array( 0 ),
+	            	array( 0.1 ),
+	            	array( false ),
+	            	array( true ),
+	            	array( null ),
+	            	array( array( ) ),
+	        );
+	}
 }
