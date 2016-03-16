@@ -1,17 +1,16 @@
 {
 	"name": "lionar/testing",
 	"version": "0.0.1",
-	"description": "lionar's foundation for testing your units",
-	"keywords": ["lionar", "testing"],
+	"description": "This package consists of files that are regularly used for unit testing",
+	"keywords": [ "lionar", "unit testing" ],
 	"license": "MIT",
 	"require" : {
 		"mikey179/vfsStream" : "dev-master",
 		"mockery/mockery": "dev-master",
-		"php": ">=5.5.9",
 		"phpunit/phpunit": "5.0.3"
   	},
 	"autoload": {
-	    "psr-4": {
+	    	"psr-4": {
 			"Lionar\\Testing\\": "source"
 		}
   	},

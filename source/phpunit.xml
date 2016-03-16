@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="lionar kernel test suite">
+        <testsuite name=" test suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
