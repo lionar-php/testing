@@ -15,11 +15,7 @@
 			"Lionar\\Testing\\": "source"
 		},
 		"files": [
-<<<<<<< HEAD
 			"../../hamcrest/hamcrest-php/hamcrest/Hamcrest.php"
-=======
-			"../hamcrest/hamcrest-php/hamcrest/Hamcrest.php"
->>>>>>> origin/master
 		]
   	},
 	"config": {
