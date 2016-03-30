@@ -5,14 +5,18 @@
 	"keywords": [ "lionar", "unit testing" ],
 	"license": "MIT",
 	"require" : {
+		"hamcrest/hamcrest-php": "*",
 		"mikey179/vfsStream" : "dev-master",
 		"mockery/mockery": "dev-master",
-		"phpunit/phpunit": "5.0.3"
+		"phpunit/phpunit": "5.0.3",
   	},
 	"autoload": {
 	    	"psr-4": {
 			"Lionar\\Testing\\": "source"
-		}
+		},
+		"files": [
+			"vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php"
+		]
   	},
 	"config": {
 		"preferred-install": "dist"
