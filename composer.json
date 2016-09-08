@@ -11,8 +11,8 @@
 		"phpunit/phpunit": "@stable"
   	},
 	"autoload": {
-	    	"psr-4": {
-			"Lionar\\Testing\\": "source"
+    	"psr-4": {
+			"Testing\\": "source"
 		},
 		"files": [
 			"../../hamcrest/hamcrest-php/hamcrest/Hamcrest.php"

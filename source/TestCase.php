@@ -1,16 +1,16 @@
 <?php
 
-namespace Lionar\Testing;
+namespace Testing;
 	
-use Mockery,
-PHPUnit_Framework_TestCase;
+use Mockery;
+use	PHPUnit_Framework_TestCase;
 
 class TestCase extends PHPUnit_Framework_TestCase
 {
     	public function tearDown()
     	{
-        		parent::tearDown();
-        		Mockery::close();
+    		parent::tearDown();
+    		Mockery::close();
     	}
 
     	public function nonStringValues( )
