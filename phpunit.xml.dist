@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit beStrictAboutTestsThatDoNotTestAnything="false"
+<phpunit beStrictAboutTestsThatDoNotTestAnything="true"
          bootstrap="vendor/autoload.php"
          backupGlobals="false"
          backupStaticAttributes="false"
