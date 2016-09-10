@@ -1,8 +1,8 @@
 {
 	"name": "lionar/testing",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "This package consists of files that are regularly used for unit testing",
-	"keywords": [ "lionar", "unit testing" ],
+	"keywords": [ "Lionar", "Unit testing" ],
 	"license": "MIT",
 	"require" : {
 		"hamcrest/hamcrest-php": "*",
@@ -15,7 +15,8 @@
 			"Testing\\": "source"
 		},
 		"files": [
-			"../../hamcrest/hamcrest-php/hamcrest/Hamcrest.php"
+			"../../hamcrest/hamcrest-php/hamcrest/Hamcrest.php",
+			"helpers.php"
 		]
   	},
 	"config": {

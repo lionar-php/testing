@@ -23,5 +23,5 @@ class TestCase extends PHPUnit_Framework_TestCase
 	            	array( null ),
 	            	array( array( ) ),
 	        );
-	}
+		}
 }
