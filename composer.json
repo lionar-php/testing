@@ -7,7 +7,7 @@
 	"require" : {
 		"hamcrest/hamcrest-php": "*",
 		"mikey179/vfsStream" : "dev-master",
-		"mockery/mockery": "dev-master",
+		"mockery/mockery": "@stable",
 		"phpunit/phpunit": "@stable"
   	},
 	"autoload": {
