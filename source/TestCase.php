@@ -4,6 +4,7 @@ namespace Testing;
 	
 use Mockery;
 use	PHPUnit_Framework_TestCase;
+use ReflectionClass;
 
 class TestCase extends PHPUnit_Framework_TestCase
 {
@@ -23,5 +24,14 @@ class TestCase extends PHPUnit_Framework_TestCase
 	            	array( null ),
 	            	array( array( ) ),
 	        );
+		}
+
+		public function property ( $instance, $property )
+		{
+			$reflector = new ReflectionClass ( $instance );
+	        $property = $reflector->getProperty ( $property );
+	        $property->setAccessible ( true );
+
+	        return $property->getValue ( $instance );
 		}
 }

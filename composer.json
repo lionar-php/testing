@@ -1,7 +1,7 @@
 {
 	"name": "lionar/testing",
 	"version": "0.0.2",
-	"description": "This package consists of files that are regularly used for unit testing",
+	"description": "This package consists of files that are regularly used for unit testing.",
 	"keywords": [ "Lionar", "Unit testing" ],
 	"license": "MIT",
 	"require" : {
