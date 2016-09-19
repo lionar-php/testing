@@ -8,7 +8,9 @@
 		"hamcrest/hamcrest-php": "*",
 		"mikey179/vfsStream" : "dev-master",
 		"mockery/mockery": "@stable",
-		"phpunit/phpunit": "@stable"
+		"phpunit/phpunit": "@stable",
+		"symfony/css-selector": "@stable", 
+		"symfony/dom-crawler": "@stable"
   	},
 	"autoload": {
     	"psr-4": {
