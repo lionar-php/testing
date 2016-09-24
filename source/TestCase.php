@@ -26,6 +26,18 @@ class TestCase extends PHPUnit_Framework_TestCase
 	        );
 		}
 
+		public function nonArrayValues( )
+    	{
+	        return array(
+	            	array( 0 ),
+	            	array( 0.1 ),
+	            	array( false ),
+	            	array( true ),
+	            	array( null ),
+	            	array( 'some string' ),
+	        );
+		}
+
 		public function property ( $instance, $property )
 		{
 			$reflector = new ReflectionClass ( $instance );
