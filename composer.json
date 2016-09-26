@@ -8,8 +8,6 @@
 		"hamcrest/hamcrest-php": "*",
 		"mikey179/vfsStream" : "dev-master",
 		"mockery/mockery": "@stable",
-		"peridot-php/peridot-jumpstart": "@stable",
-		"peridot-php/peridot-prophecy-plugin": "@stable",
 		"phpunit/phpunit": "@stable",
 		"symfony/css-selector": "@stable", 
 		"symfony/dom-crawler": "@stable"
