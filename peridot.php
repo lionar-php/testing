@@ -2,11 +2,14 @@
 
 use Evenement\EventEmitterInterface;
 use Peridot\Console\Environment;
+use Peridot\Plugin\Prophecy\ProphecyPlugin;
 use Peridot\Reporter\ReporterInterface;
 use Symfony\Component\Console\Input\InputOption;
 
 return function(EventEmitterInterface $emitter) 
 {
+    $plugin = new ProphecyPlugin($emitter);
+    
     $counts = ['pass' => 0, 'fail' => 0, 'pending' => 0];
 
     $emitter->on('test.failed', function() use (&$counts) {
