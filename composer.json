@@ -1,6 +1,6 @@
 {
 	"name": "lionar/testing",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "This package consists of files that are regularly used for unit testing.",
 	"keywords": [ "Lionar", "Unit testing" ],
 	"license": "MIT",
@@ -8,6 +8,7 @@
 		"hamcrest/hamcrest-php": "*",
 		"mikey179/vfsStream" : "dev-master",
 		"mockery/mockery": "@stable",
+		"peridot-php/peridot": "@stable",
 		"phpunit/phpunit": "@stable",
 		"symfony/css-selector": "@stable", 
 		"symfony/dom-crawler": "@stable"
