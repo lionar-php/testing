@@ -5,12 +5,13 @@
 	"keywords": [ "Lionar", "Unit testing" ],
 	"license": "MIT",
 	"require" : {
-		"hamcrest/hamcrest-php": "*",
-		"mikey179/vfsStream" : "dev-master",
-		"mockery/mockery": "@stable",
-		"phpunit/phpunit": "@stable",
-		"symfony/css-selector": "@stable", 
-		"symfony/dom-crawler": "@stable"
+		"filp/whoops"			: "*",
+		"hamcrest/hamcrest-php"	: "*",
+		"mikey179/vfsStream" 	: "dev-master",
+		"mockery/mockery"		: "@stable",
+		"phpunit/phpunit"		: "@stable",
+		"symfony/css-selector"	: "@stable", 
+		"symfony/dom-crawler"	: "@stable"
   	},
 	"autoload": {
     	"psr-4": {
@@ -18,7 +19,8 @@
 		},
 		"files": [
 			"../../hamcrest/hamcrest-php/hamcrest/Hamcrest.php",
-			"helpers.php"
+			"helpers.php",
+			"whoops.php"
 		]
   	},
 	"config": {
